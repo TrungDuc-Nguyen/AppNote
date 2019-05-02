@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btn_edit_cancel"
+        android:icon="@drawable/ic_cancel"
+        android:title="Hủy"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/btn_edit_save"
+        android:icon="@drawable/ic_done"
+        android:title="Lưu"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.Home">
+
+    <EditText
+        android:id="@+id/et_home_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tìm kiếm ..."
+        android:inputType="text"
+        android:maxLength="35"
+        android:maxLines="1"
+        android:textColorHint="@color/colorGray"
+        android:textSize="@dimen/textsize_20sp"
+        android:background="@drawable/custom_et"
+        android:layout_marginStart="@dimen/margin_start_5dp"
+        android:layout_marginEnd="@dimen/margin_end_5dp"
+        android:layout_marginTop="@dimen/margin_top_5dp"
+        android:layout_marginBottom="@dimen/margin_bot_5dp"
+        android:paddingStart="@dimen/margin_start_5dp"
+        android:paddingEnd="@dimen/margin_end_5dp"/>
+
+    <Button
+        android:id="@+id/btn_home_search"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_anchor="@id/et_home_search"
+        app:layout_anchorGravity="end|center"
+        android:background="@drawable/ic_search"
+        android:layout_marginStart="@dimen/margin_start_5dp"
+        android:layout_marginEnd="@dimen/margin_end_5dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_home_listnote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_newnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        app:fabSize="normal"
+        app:layout_anchor="@id/rv_home_listnote"
+        app:layout_anchorGravity="bottom|end"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"/>
+</android.support.design.widget.CoordinatorLayout>

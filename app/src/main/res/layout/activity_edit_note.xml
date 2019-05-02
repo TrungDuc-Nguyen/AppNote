@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/margin_start_5dp"
+    android:layout_marginTop="@dimen/margin_top_5dp"
+    android:layout_marginEnd="@dimen/margin_end_5dp"
+    android:layout_marginBottom="@dimen/margin_bot_5dp"
+    android:orientation="vertical"
+    tools:context=".addNote.NewNote">
+
+    <EditText
+        android:id="@+id/et_edit_topic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:background="@drawable/custom_et"
+        android:gravity="start|center"
+        android:hint="Nhập chủ đề nếu cần thiết ..."
+        android:maxLength="30"
+        android:maxLines="1"
+        android:paddingStart="@dimen/margin_start_5dp"
+        android:paddingEnd="@dimen/margin_end_5dp"
+        android:textSize="@dimen/textsize_20sp"
+        />
+
+    <EditText
+        android:id="@+id/et_edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_top_5dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_et"
+        android:hint="Nhập nội dung của ghi nhớ ..."
+        android:inputType="textMultiLine"
+        android:maxLines="50"
+        android:paddingStart="@dimen/margin_start_5dp"
+        android:paddingEnd="@dimen/margin_end_5dp"
+        android:textSize="@dimen/textsize_20sp"
+        android:textColorHint="@color/colorGray"
+        android:gravity="start" />
+</LinearLayout>

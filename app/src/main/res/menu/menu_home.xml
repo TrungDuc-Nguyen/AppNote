@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btn_ab_chon"
+        android:title="Chọn"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_ab_sapxep"
+        android:title="Sắp xếp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_ab_timedesplay"
+        android:title="Hiển thị thời gian"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_ab_pass"
+        android:title="Cài mật khẩu"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_ab_history"
+        android:title="Lịch sử"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_ab_help"
+        android:title="Trợ giúp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_ab_setting"
+        android:title="Cài đặt"
+        app:showAsAction="never" />
+    <item android:id="@+id/btn_ab_lock"
+        android:title="Khóa"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_lock"/>
+    <item android:id="@+id/btn_ab_infor"
+        android:title="Thông tin"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_infor"/>
+</menu>

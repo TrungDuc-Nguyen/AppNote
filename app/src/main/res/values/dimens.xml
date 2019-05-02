@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize_20sp">20sp</dimen>
+    <dimen name="margin_start_5dp">5dp</dimen>
+    <dimen name="margin_end_5dp">5dp</dimen>
+    <dimen name="margin_top_5dp">5dp</dimen>
+    <dimen name="margin_bot_5dp">5dp</dimen>
+    <dimen name="radius_5dp">5dp</dimen>
+    <dimen name="textsize_15sp">15sp</dimen>
+    <dimen name="textsize_10sp">10sp</dimen>
+</resources>
